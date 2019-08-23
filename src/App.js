@@ -5,7 +5,7 @@ import Login from './components/Login/Login'
 import Profile from './components/Profile/Profile'
 import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
-
+import Users from './components/Users/Users'
 import {BrowserRouter, Route} from "react-router-dom";
 
 function App() {
@@ -18,6 +18,8 @@ function App() {
                     {/*{token?<Route path='/profile' component={Profile}/>: null}*/}
                     <Route path='/register' component={Register}/>
                     <Route path='/login' component={Login}/>
+                    <Route path='/users' component={Users}/>
+
                 </div>
             </div>
         </BrowserRouter>

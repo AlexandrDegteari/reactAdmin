@@ -1,0 +1,44 @@
+form > div > div input {
+    padding: 6px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 25px;
+    width: 80%;
+    text-align: center;
+}
+
+form > div > div > input:focus {
+    border: 3px solid #555;
+}
+
+.marginInput {
+    margin-left: 15px;
+}
+
+.marginButtonReset , .marginButtonAddTable{
+    margin: 15px;
+}
+#tableUsers {
+    width: 80%;
+    margin-left: 10%;
+    overflow: scroll;
+
+}
+
+td {
+    text-align: center;
+    /*overflow: auto;*/
+    /*width: 150px;*/
+    /*height: 50px;*/
+    /*padding: 5px;*/
+    font-family: "Arial Black";
+}
+
+.delete {
+    display: block;
+    margin: 0 auto;
+}
