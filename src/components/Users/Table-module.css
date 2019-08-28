@@ -36,9 +36,20 @@ td {
     /*height: 50px;*/
     /*padding: 5px;*/
     font-family: "Arial Black";
+
 }
 
 .delete {
     display: block;
     margin: 0 auto;
+}
+
+.red {
+    color: red;
+}
+
+#imgTable{
+    width: 100px;
+    height: 100px;
+
 }
